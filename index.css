@@ -1,0 +1,40 @@
+* {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.first-section {
+  height: 100vh;
+}
+
+.second-section {
+  background-color: #424242;
+}
+
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.padding-horizontal {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.padding-vertical {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.left-hand-side-image {
+  min-height: 50vh;
+  background-image: url('./images/clase.jpg') !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-image {
+  min-width: 150px !important;
+  width: 10vw !important;
+  margin-right: 5%;
+}
