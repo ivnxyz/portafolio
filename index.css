@@ -26,6 +26,10 @@
   padding-bottom: 3%;
 }
 
+.padding-bottom {
+  padding-bottom: 3%;
+}
+
 .left-hand-side-image {
   min-height: 50vh;
   background-image: url('./images/clase.jpg') !important;
@@ -42,4 +46,9 @@
 .third-section {
   min-height: 100vh;
   background-color: #3DB762;
+}
+
+.fourth-section {
+  min-height: 100vh;
+  background-color: #192A51;
 }
