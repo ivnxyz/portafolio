@@ -1,9 +1,35 @@
 * {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+  background-color: #F8F8F8;
 }
 
 .first-section {
   height: 100vh;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.red-color {
+  color: #F93E54;
+}
+
+.blue-color, a:hover {
+  color: rgb(18, 42, 145);
+}
+
+.no-text-decoration {
+  text-decoration: none !important;
+}
+
+.main-image {
+  background-image: url('./images/charla.jpg');
+  background-position: right;
+  background-size: cover;
 }
 
 .second-section {
@@ -28,13 +54,6 @@
 
 .padding-bottom {
   padding-bottom: 3%;
-}
-
-.left-hand-side-image {
-  min-height: 50vh;
-  background-image: url('./images/clase.jpg') !important;
-  background-size: cover;
-  background-position: center;
 }
 
 .logo-image {
