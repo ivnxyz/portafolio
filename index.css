@@ -38,3 +38,8 @@
   width: 10vw !important;
   margin-right: 5%;
 }
+
+.third-section {
+  min-height: 100vh;
+  background-color: #3DB762;
+}
